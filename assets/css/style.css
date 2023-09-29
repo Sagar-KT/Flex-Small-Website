@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* first page */
+
+.banner{
+    background: linear-gradient(rgba(55,57,69,0.9),rgba(55,57,69,0.9)),url(../images/desktop1.jpg)no-repeat center;
+    background-size: 100%;
+    padding: 30px;
+}
+.banner>header>nav>img{
+    margin-left: 80px;
+}
+.banner>header>nav>ul{
+    list-style: none;
+    float: right;
+}
+.banner>hr{
+    margin-top: 20px;
+}
+.banner>header>nav>ul>li{
+    display: inline-block;
+    padding: 15px;
+    margin-right: 1px;
+}
+.banner>header>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.banner>header>nav>ul>li>a:hover{
+    color: red;
+}
+.banner>header>nav>ul>li:last-child{
+    margin-right: 105px;
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 3px;
+    height: 20px;
+}
+.banner>center{
+    margin-top: 150px;
+    color: #fff;
+    font-size: 25px;
+}
+.banner>center>h1{
+    margin-top: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 50px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-top: 35px;
+    border: 0;
+}
+.search>:first-child{
+    width: 300px;
+    padding-left: 25px;
+    border: 0;
+    border-radius: 10px 0 0 10px;
+ }
+.search>:nth-child(2),.search>:nth-child(3){
+   width: 300px;
+   padding-left: 25px;
+   border: 0;
+}
+.search>:last-child {
+    background-color: aqua;
+    width: 300px;
+    padding-left: 25px;
+    border: 0;
+    border-radius: 0 10px 10px 0;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.parent{
+     display: flex;
+     flex-direction: column;
+     align-items: center;   
+}
+.fa-house,.fa-burger,.fa-cart-shopping,.fa-car,.fa-wordpress{
+    background-color: #fff;
+    color: black;
+    padding: 18px;
+    border-radius: 60px 60px 60px 60px;
+    font-size: 20px;
+}
+.fa-house:hover,.fa-burger:hover,.fa-cart-shopping:hover,.fa-car:hover,.fa-wordpress:hover{
+    background-color: rgb(180, 25, 107);
+    color: #FFF;
+}
+.parent>:nth-child(2){
+    font-size: 17px;
+    margin-top: 10px;
+    color: #fff;
+}
+/* second page */
+center{
+    margin-top: 100px;
+}
+center>h1{
+   font-size: 35px;
+}
+center>h5{
+    margin-top: 20px;
+    color: cadetblue;
+    font-size: 17px;
+ }
+.second{
+   background-color: rgb(23,4,23);
+   margin-top: 50px;
+   margin-left:150px;
+   margin-right: 185px;
+   display: flex;
+   flex-flow: row wrap;
+}
+.icon{
+    margin-top: 1px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-right:  90px;
+    background-color: rgb(147, 95, 46);
+}
+.first{
+    margin-top: 1px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-right:  90px;
+}
+.icon1{
+    background-color: #fff;
+    color: black;
+    padding: 18px;
+    border-radius: 60px 60px 60px 60px;
+    font-size: 20px;
+}
+.icon2{
+    margin-top: 20px;
+    color: #fff;
+}
+.icon1:hover{
+    background-color: rgb(180, 25, 107);
+    color: #fff;
+}
+.icon:hover,.first:hover{
+    background-color: rgb(180, 199, 199);
+    color: black;
+    font-style: italic;
+}
+.sss1{
+   line-height: 2;
+   margin-top: 130px;
+   margin-left: 60px;
+   flex-flow: row wrap;
+   color: #fff;
+}
+.sss1>h1{
+    font-size: 22px;
+    flex-flow: row wrap;
+}
+.sss1>p{
+    font-size: 15px;
+    flex-flow: row wrap;
+    padding-bottom: 15px;
+}
+.sss1>button{
+    font-size: 15px;
+    margin-top: 20px;
+    width: 320px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 10px 10px 10px 10px ;
+    border: none;
+}
+.fa-eye{
+    margin-right: 15px;
+}
+.sss1>button:hover{
+    background-color: aqua;
+}
+.pic>img{
+    margin-top: 50px;
+    margin-left: 63px;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+
+/* 3rd page */
+.third>center{
+    margin-bottom: 50px;
+}
+.food{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-top: 10px;
+    margin-left:150px;
+    margin-right: 185px;
+    display: flex;
+    gap: 50px;
+}
+.sunshine{
+    margin-top: 15px;
+    line-height: 2;
+    gap: 20px;
+}
+.sunshine>section>h6{
+    color: cadetblue;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.month{
+    margin-top: 20px;
+    color: cadetblue;
+    font-size: 18px;   
+}
+.month1>h4{
+    margin-top:20px ;
+    color: cadetblue;
+    font-size: 18px;
+}
+.month1>h3{
+    color: cadetblue;
+}
+.food>:last-child{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.food>.review>p>span{
+    color: red;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.review>button{
+    margin-top: 168px;
+    margin-left: 60px;
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+.review>button:hover{
+    background-color: aqua;
+    transition: 0.5s ease-in-out;
+}
+/* fourth */
+.before{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+
+.logo{
+ display: flex;
+}
+.logo>h1{
+    margin-top: 35px;
+    margin-left: 8px;
+}
+.div1>p{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-style: initial;
+    text-align: justify;
+    line-height: 1.5;
+}
+.div2{
+    margin-top: 30px;
+    margin-left: 75px;
+}
+.column{
+    display: flex;
+}
+.column1{
+    margin-top: 25px;
+    margin-right: 75px;
+    line-height: 1.8;
+}
+.column2{
+    margin-top: 25px;
+    line-height: 1.8;
+}
+
+.div3{
+    margin-top: 28px;
+    margin-left: 100px;
+}
+.div3>:nth-child(2){
+    margin-top: 25px;
+    font-size: 17px;
+}
+.code{
+    margin-top: 25px;
+    display: flex;
+    gap: 65px;
+    font-size: 17px;
+}
+/* final */
+.final{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}

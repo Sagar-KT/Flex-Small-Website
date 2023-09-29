@@ -1,0 +1,97 @@
+@media(max-width:769px)
+{
+    .banner{background: linear-gradient(rgba(55,57,69,0.8),rgba(55,57,69,0.8)) ,url(../images/mobile.jpg)no-repeat center; }
+    .banner>header>nav>ul>li{  display: block; margin-left: 100px;}
+    .banner>header>nav>ul{  float: none; }
+    .banner>header>nav{text-align: center;}
+     .search{
+        display: block;
+        margin-top: 60px;
+    } 
+    .search>:first-child, .search>:last-child{
+       width: 100%;
+       height: 60px;
+       font-size: 30px;
+       border-radius: 0 0 0 0;
+    } 
+    .search>:nth-child(2){
+        width: 96% ;
+        height: 60px;
+        font-size: 30px; 
+     } 
+    
+    .search>:nth-child(3) {
+        width: 100%;
+        height: 60px;
+        font-size: 30px;
+     
+     } 
+     .container{
+      margin-top:  250px ;
+     }
+     .second{
+      display: flex;
+      flex-flow: column wrap ; 
+      width: 100%; 
+      margin: auto;
+     }
+     .food{
+      display: flex;
+      flex-flow: column wrap; 
+      align-items: center;
+      width: 100%;
+      margin: auto;
+      margin-left: 10px;
+      margin-right: 15px;
+      margin-bottom: 20px;
+     }
+     .review>button{
+      margin: auto;
+      margin-bottom: 50px;
+      margin-top: 100px;
+      
+     }
+     .before{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;
+      align-content: center;
+     }
+     .div1{
+        margin: auto;
+        margin-right: 150px;
+     }
+      .div2{
+      margin: auto;
+      margin-top: 50px;
+      margin-right: 150px;
+     } 
+     .div3{
+      margin: auto;
+      margin-right: 150px;
+      margin-top: 50px;
+     }
+}
+
+@media(min-width:769px) and (max-width:1200px)
+{
+    .banner{background: linear-gradient(rgba(55,57,69,0.8),rgba(55,57,69,0.8)) ,url(../images/tablet1.jpg)no-repeat center; }
+    .banner>header>nav>ul{float: none;}
+    .banner>header>nav{text-align: center;}
+    .container{
+      flex-flow: row wrap;
+        flex: 1;
+     }
+     .second{
+      flex-flow: row wrap;
+      width: auto;
+     }
+     .food{
+      display: flex;
+      flex-flow: row wrap;
+      padding: 20px;
+     }
+     .before{
+      flex-flow: row wrap;
+     }
+}
