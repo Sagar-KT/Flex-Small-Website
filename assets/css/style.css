@@ -8,7 +8,7 @@
 .banner{
     background: linear-gradient(rgba(55,57,69,0.9),rgba(55,57,69,0.9)),url(../images/desktop1.jpg)no-repeat center;
     background-size: 100%;
-    padding: 30px;
+    padding: 31px;
 }
 .banner>header>nav>img{
     margin-left: 80px;
